@@ -1,0 +1,17 @@
+# 解包目录（deb 已在仓库中，无需提交解包结果）
+x86_deb/
+m2_deb/
+m22242_deb/
+
+# 官方仓库克隆（体积大；C SDK 头文件已内嵌在 demo/include/）
+rknn3-toolkit/
+rknn3-model-zoo/
+
+# 构建与运行产物
+demo/cls_demo
+demo/input.bin
+demo/last_run.log
+demo/tmp/
+*.npy
+__pycache__/
+quickstart_cn.txt
